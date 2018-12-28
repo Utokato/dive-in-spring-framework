@@ -10,6 +10,10 @@ public class Book {
 
     private Integer page;
 
+    public Book() {
+        System.out.println("Bingo! The constructor without args of book is running.");
+    }
+
     public Book(String name, Integer page) {
         System.out.println("Bingo! The constructor of book is running.");
         System.out.println();

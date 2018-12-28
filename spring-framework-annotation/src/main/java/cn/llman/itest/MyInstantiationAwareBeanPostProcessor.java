@@ -11,14 +11,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyInstantiationAwareBeanPostProcessor implements InstantiationAwareBeanPostProcessor {
 
-    @Override
     public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException {
         System.out.println("Notice! A method before instantiation is running, and the bean prepared to instance is: " + beanName);
         System.out.println();
         return null;
     }
 
-    @Override
     public boolean postProcessAfterInstantiation(Object bean, String beanName) throws BeansException {
         if (bean instanceof Book) {
             Book book = (Book) bean;
@@ -27,7 +25,6 @@ public class MyInstantiationAwareBeanPostProcessor implements InstantiationAware
         return false;
     }
 
-    @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         if (bean instanceof Book) {
             Book book = (Book) bean;
@@ -36,7 +33,6 @@ public class MyInstantiationAwareBeanPostProcessor implements InstantiationAware
         return null;
     }
 
-    @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         if (bean instanceof Book) {
             Book book = (Book) bean;
