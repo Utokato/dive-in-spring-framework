@@ -467,7 +467,17 @@ BeanPostProcessor是一个顶级接口，它有很多的子接口，不同类型
 
    ApplicationEventMulticaster：事件派发器
 
+---
 
+| 对象                      | 数据结构          |
+| ------------------------- | ----------------- |
+| beanFactoryPostProcessors | ArrayList         |
+| applicationListeners      | LinkedHashSet     |
+| earlyApplicationEvents    | LinkedHashSet     |
+| protocolResolvers         | LinkedHashSet     |
+| resourceCaches            | ConcurrentHashMap |
+| singletonObjects          | ConcurrentHashMap |
+| singletonFactories        | HashMap           |
 
 
 

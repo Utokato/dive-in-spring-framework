@@ -72,7 +72,7 @@ public class MainConfig2 {
      * ---  1. 包扫描 + 组件标注范式(模板)注解 (@Controller,@Service,@Repository,@Component ...) [用于自己的组件上标注]
      * ---  2. @Bean [用于导入第三方包里面的组件]
      * ---  3. @Import [用于快速给容器中导入一个组件] {@link Import}
-     * ------   1> @Import(要导入容器中的组件)：容器中就会自动注册这个组件，idid默认是组件的全类名
+     * ------   1> @Import(要导入容器中的组件)：容器中就会自动注册这个组件，id默认是组件的全类名
      * ------   2> ImportSelector: 返回要导入的组件的全类名的数组 {@link ImportSelector} {@link MyImportSelector}
      * ------   3> ImportBeanDefinitionRegistrar {@link ImportBeanDefinitionRegistrar} 收到注册bean到容器中
      * ---  4. 使用spring提供的 FactoryBean(工厂bean) 常用于spring与其他框架的整合

@@ -9,6 +9,8 @@
     <version>0.01-SNAPSHOT</version>
     <modules>
         <module>spring-framework-annotation</module>
+        <module>servlet3</module>
+        <module>spring-mvc-annotation</module>
     </modules>
     <packaging>pom</packaging>
 

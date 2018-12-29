@@ -4,6 +4,7 @@ import cn.llman.bean.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.PropertySources;
 
 /**
  * 使用@PropertySource {@link PropertySource} 来加载外部的配置文件
@@ -15,6 +16,11 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @PropertySource(value = {"classpath:/person.properties"})
+@PropertySources(value = {
+        @PropertySource(value = {""}),
+        @PropertySource(value = {""}),
+        @PropertySource(value = {""})
+})
 public class MainConfigPropertyValue {
 
     @Bean

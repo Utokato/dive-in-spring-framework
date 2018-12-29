@@ -21,7 +21,6 @@ public class LinuxCondition implements Condition {
      * @param metadata
      * @return
      */
-    @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
 
         // 获取IOC容器使用的 BeanFactory

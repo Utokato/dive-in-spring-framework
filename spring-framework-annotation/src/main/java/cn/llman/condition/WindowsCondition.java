@@ -11,7 +11,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  * @date 2018/12/19
  */
 public class WindowsCondition implements Condition {
-    @Override
+
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
         // 获取当前运行的环境，JVM OS 等
         Environment environment = context.getEnvironment();

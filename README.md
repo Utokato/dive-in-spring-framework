@@ -1,6 +1,6 @@
 ### Dive in Spring Framework
 
-跟着《尚硅谷》的一个课程学习，课程名称是---《Spring-framework 源码深度解析》
+跟着《尚硅谷》的一个课程学习，课程名称是---《Spring-framework 注解驱动开发》
 
 ---
 
