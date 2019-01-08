@@ -1,6 +1,6 @@
 package cn.llman.tx;
 
-import com.mchange.v2.c3p0.ComboPooledDataSource;
+import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
@@ -28,7 +28,7 @@ import java.lang.reflect.Method;
  * 3. 使用@Transactional标注，当前方法或者类中的方法支持事务
  * 4. 在配置类中使用@EnableTransactionManagement 开启基于注解的事务管理功能
  * 5. 配置事务管理器(PlatformTransactionManager)，来控制事务
- *
+ * <p>
  * 原理：
  * 1. @EnableTransactionManagement 是一个组合注解，其中最重要的注解为：@Import(TransactionManagementConfigurationSelector.class)
  * 2. 使用TransactionManagementConfigurationSelector给容器中导入组件
@@ -57,7 +57,6 @@ import java.lang.reflect.Method;
  * -                            如果正常执行，同样获取到事务管理器，利用事务管理器提交本次操作
  * -
  *
- *
  * @author
  * @date 2018/12/25
  */
@@ -78,11 +77,11 @@ public class TxConfig {
 
     @Bean
     public DataSource dataSource() throws PropertyVetoException {
-        ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setUser(user);
+        DruidDataSource dataSource = new DruidDataSource();
+        dataSource.setUsername(user);
         dataSource.setPassword(password);
-        dataSource.setDriverClass(driverClass);
-        dataSource.setJdbcUrl(jbdcUrl);
+        dataSource.setDriverClassName(driverClass);
+        dataSource.setUrl(jbdcUrl);
         return dataSource;
     }
 

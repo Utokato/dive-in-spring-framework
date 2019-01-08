@@ -1,8 +1,7 @@
 package cn.llman.config;
 
 import cn.llman.bean.Color;
-import com.mchange.v2.c3p0.ComboPooledDataSource;
-import org.junit.Test;
+import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.EmbeddedValueResolverAware;
 import org.springframework.context.annotation.Bean;
@@ -40,6 +39,7 @@ public class MainConfigOfProfile implements EmbeddedValueResolverAware {
 
     private String driverClass;
 
+    private String jbdcUrl = "jdbc:mysql://localhost:3306/test";
 
     // @Profile("test")
     @Bean("color")
@@ -51,33 +51,31 @@ public class MainConfigOfProfile implements EmbeddedValueResolverAware {
     @Profile("test")
     @Bean("testDataSource")
     public DataSource dataSourceTest(@Value("${db.password}") String password) throws Exception {
-        ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setUser(user);
-        dataSource.setPassword(password);
-        dataSource.setDriverClass(driverClass);
-        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/test");
-        return dataSource;
+        return getDataSource(password);
     }
 
     @Profile("dev")
     @Bean("devDataSource")
     public DataSource dataSourceDevelopment(@Value("${db.password}") String password) throws Exception {
-        ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setUser(user);
-        dataSource.setPassword(password);
-        dataSource.setDriverClass(driverClass);
-        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/mstore");
-        return dataSource;
+        return getDataSource(password);
     }
 
     @Profile("pro")
     @Bean("proDataSource")
     public DataSource dataSourceProduct(@Value("${db.password}") String password) throws Exception {
-        ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setUser(user);
+        return getDataSource(password);
+    }
+
+    private DataSource getDataSource(@Value("${db.password}") String password) {
+        return getDataSource(password, user, driverClass, jbdcUrl);
+    }
+
+    public static DataSource getDataSource(@Value("${db.password}") String password, String user, String driverClass, String jbdcUrl) {
+        DruidDataSource dataSource = new DruidDataSource();
+        dataSource.setUsername(user);
         dataSource.setPassword(password);
-        dataSource.setDriverClass(driverClass);
-        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/school");
+        dataSource.setDriverClassName(driverClass);
+        dataSource.setUrl(jbdcUrl);
         return dataSource;
     }
 
