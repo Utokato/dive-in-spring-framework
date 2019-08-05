@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="dive-in-spring-framework" target="8" />
-      <module name="servlet3" target="8" />
-      <module name="spring-framework-annotation" target="8" />
-      <module name="spring-mvc-annotation" target="8" />
+      <module name="dive-in-spring-framework" target="1.5" />
+      <module name="servlet3" target="1.7" />
+      <module name="spring-framework-annotation" target="1.5" />
+      <module name="spring-mvc-annotation" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
