@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator</OriginalElement>
+  <OriginalElement>org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator</OriginalElement>
   <nodes>
     <node x="138.0" y="81.0">org.springframework.core.Ordered</node>
     <node x="817.0" y="162.0">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
-    <node x="599.0" y="405.0">org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator</node>
-    <node x="639.9479166666666" y="0.0">org.springframework.beans.factory.Aware</node>
+    <node x="635.0125" y="0.0">org.springframework.beans.factory.Aware</node>
     <node x="2.0" y="0.0">java.io.Serializable</node>
     <node x="637.0" y="243.0">org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator</node>
     <node x="615.0" y="324.0">org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator</node>
@@ -14,21 +13,21 @@
     <node x="887.5" y="0.0">org.springframework.beans.factory.config.BeanPostProcessor</node>
     <node x="0.0" y="81.0">org.springframework.aop.framework.ProxyConfig</node>
     <node x="659.0" y="81.0">org.springframework.beans.factory.BeanFactoryAware</node>
-    <node x="203.15364583333337" y="162.0">org.springframework.aop.framework.ProxyProcessorSupport</node>
+    <node x="189.7791666666667" y="162.0">org.springframework.aop.framework.ProxyProcessorSupport</node>
     <node x="256.0" y="81.0">org.springframework.aop.framework.AopInfrastructureBean</node>
-    <node x="589.5" y="486.0">org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator</node>
+    <node x="600.0" y="405.0">org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator</node>
     <node x="455.0" y="81.0">org.springframework.beans.factory.BeanClassLoaderAware</node>
   </nodes>
   <notes />
   <edges>
     <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.core.Ordered">
       <point x="-23.125" y="-15.5" />
-      <point x="272.52864583333337" y="132.0" />
+      <point x="259.1541666666667" y="132.0" />
       <point x="187.0" y="132.0" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" target="org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor">
-      <point x="66.33333333333337" y="-15.5" />
+      <point x="66.33333333333331" y="-15.5" />
       <point x="802.8333333333334" y="218.0" />
       <point x="967.5" y="218.0" />
       <point x="0.0" y="15.5" />
@@ -36,18 +35,18 @@
     <edge source="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" target="org.springframework.aop.framework.ProxyProcessorSupport">
       <point x="-66.33333333333331" y="-15.5" />
       <point x="670.1666666666667" y="218.0" />
-      <point x="295.65364583333337" y="218.0" />
+      <point x="282.2791666666667" y="218.0" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.beans.factory.BeanClassLoaderAware">
       <point x="69.375" y="-15.5" />
-      <point x="365.02864583333337" y="142.0" />
+      <point x="351.6541666666667" y="142.0" />
       <point x="547.0" y="142.0" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.aop.framework.AopInfrastructureBean">
       <point x="23.125" y="-15.5" />
-      <point x="318.77864583333337" y="142.0" />
+      <point x="305.4041666666667" y="142.0" />
       <point x="345.5" y="142.0" />
       <point x="0.0" y="15.5" />
     </edge>
@@ -62,20 +61,16 @@
     <edge source="org.springframework.beans.factory.BeanClassLoaderAware" target="org.springframework.beans.factory.Aware">
       <point x="0.0" y="-15.5" />
       <point x="547.0" y="56.0" />
-      <point x="660.9479166666666" y="56.0" />
+      <point x="656.0125" y="56.0" />
       <point x="-21.0" y="15.5" />
     </edge>
     <edge source="org.springframework.aop.framework.ProxyProcessorSupport" target="org.springframework.aop.framework.ProxyConfig">
       <point x="-69.375" y="-15.5" />
-      <point x="226.27864583333337" y="142.0" />
+      <point x="212.9041666666667" y="142.0" />
       <point x="59.0" y="142.0" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" target="org.springframework.beans.factory.BeanFactoryAware">
-      <point x="0.0" y="-15.5" />
-      <point x="0.0" y="15.5" />
-    </edge>
-    <edge source="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator" target="org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator">
       <point x="0.0" y="-15.5" />
       <point x="0.0" y="15.5" />
     </edge>
@@ -87,21 +82,19 @@
       <point x="0.0" y="-15.5" />
       <point x="0.0" y="15.5" />
     </edge>
-    <edge source="org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator" target="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator">
+    <edge source="org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator" target="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator">
       <point x="0.0" y="-15.5" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="org.springframework.beans.factory.BeanFactoryAware" target="org.springframework.beans.factory.Aware">
       <point x="0.0" y="-15.5" />
       <point x="736.5" y="56.0" />
-      <point x="702.9479166666666" y="56.0" />
+      <point x="698.0125" y="56.0" />
       <point x="21.0" y="15.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6476274165202109" x="786.7544097693351" y="258.5" />
-  <SelectedNodes>
-    <node>org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="559.0" y="218.0" />
+  <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

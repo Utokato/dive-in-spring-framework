@@ -13,7 +13,6 @@ import org.springframework.stereotype.Controller;
  * {@link ComponentScan}
  * {@link ComponentScans}
  *
- * @author
  * @date 2018/12/18
  */
 @Configuration //告诉Spring这是一个配置类(范式注解)
@@ -44,7 +43,7 @@ import org.springframework.stereotype.Controller;
 // FilterType.CUSTOM：使用自定义规则 ***
 public class MainConfig {
 
-    // 给容器中注册一个Bean;类型为返回值的类型，id默认是用方法名作为id
+    // 给容器中注册一个Bean;类型为返回值的类型，id 默认用方法名作为id
     @Bean
     public Person person() {
         return new Person("lma", 21);

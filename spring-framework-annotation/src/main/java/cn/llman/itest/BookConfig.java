@@ -32,7 +32,7 @@ import org.springframework.context.annotation.Configuration;
  * -    2> 之后，Spring通过该类的构造器(constructor)实例化对象
  * -    3> postProcessAfterInstantiation运行，此时实例化对象完毕，所以可以获得bean的实例对象
  * -        打印出Book[name='A Tale of Two Cities', page=599]，这也是在构造函数中设置的
- * -    4> postProcessBeforeInitialization运行，此时实例化以及结束，但SpringBean的初始化还没有开始
+ * -    4> postProcessBeforeInitialization运行，此时实例化已经结束，但SpringBean的初始化还没有开始
  * -        所以获得的book实例为：Book[name='A Tale of Two Cities', page=599]
  * -    5> 然后，指定的初始化方法开始运行，在初始化方法中，我们对书籍的信息进行了修改，从《双城记》修改到了《战争与和平》
  * -    6> postProcessAfterInitialization运行，此时SpringBean的实例化和初始化工作都已结束
@@ -41,9 +41,6 @@ import org.springframework.context.annotation.Configuration;
  * -    7> 此时，SpringBean经历了上面的流程最终加入了IOC容器中了
  * -    8> 最后，我们在测试方法中，从IOC容器中获取该实例，猜猜我们拿到了什么实例?
  * -        没错，Book[name='Pride and Prejudice', page=699]，就是《傲慢与偏见》了
- *
- * @author
- * @date 2018/12/25
  */
 @Configuration
 @ComponentScan({"cn.llman.itest"})

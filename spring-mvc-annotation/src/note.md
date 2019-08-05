@@ -1,5 +1,5 @@
 1. web容器在启动的时候，会扫描每个jar包下的META-INF/services/javax.servlet.ServletContainerInitializer
-2. 扫描后会加载这个文件的启动类
+2. 扫描后会加载这个文件的启动类 org.springframework.web.SpringServletContainerInitializer
 3. spring的应用一启动就会加载感兴趣的WebApplicationInitializer接口下的所有组件(子类)
 4. 并且为这些WebApplicationInitializer子类组件创建对象(如果组件不是接口，不是抽象类的话)
     1. AbstractContextLoaderInitializer：在这个类中onStartup方法执行过程中，创建根容器，createRootApplicationContext()

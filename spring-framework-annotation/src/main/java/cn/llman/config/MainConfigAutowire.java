@@ -43,15 +43,12 @@ import javax.inject.Inject;
  * ---  1> 标注在方法位置, @Bean+方法参数，参数从容器中获取；默认可以省略@Autowired
  * ---  2> 标注在构造器位置，如果组件只有一个有参构造器，这个有参构造器的@Autowired可以省略，所需要的参数依然可以从组件中正确获取
  * ---  3> 标注在参数位置
- *
+ * <p>
  * 4. 自定义组件想要使用Spring容器底层的一些组件(如：ApplicationContext,BeanFactory,xxx...)
  * ---  自定义组件只需要实现 xxxAware 接口 {@link Aware}: 在创建对象时，会调用接口规定的方法注入相关组件
  * ---  xxxAware的功能是使用 xxxAwareProcessor来完成的：
  * ---      ApplicationContextAware <--> ApplicationContextAwareProcessor
- *
- *
- * @author
- * @date 2018/12/21
+ * 
  */
 @Configuration
 @ComponentScan({"cn.llman.dao", "cn.llman.service", "cn.llman.controller", "cn.llman.bean"})

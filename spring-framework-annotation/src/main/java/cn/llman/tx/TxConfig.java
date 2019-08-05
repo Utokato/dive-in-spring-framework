@@ -47,18 +47,15 @@ import java.lang.reflect.Method;
  * -                TransactionInterceptor本质上是一个MethodInterceptor(方法拦截器)
  * -                拦截器在目标方法执行的时候：
  * -                    执行拦截器链：这个拦截器链就只有一个拦截器，即：TransactionInterceptor(事务拦截器)
- * -                    事务拦截器的工作机制：{@link TransactionAspectSupport#invokeWithinTransaction(Method, Class, TransactionAspectSupport.InvocationCallback)}
+ * -                    事务拦截器的工作机制：
+ * -                    {@link TransactionAspectSupport#invokeWithinTransaction(Method, Class, TransactionAspectSupport.InvocationCallback)}
  * -                        1) 先获取事务相关的属性，如果为空的话，表示这个方法没有事务
  * -                        2) 再获取PlatformTransactionManager(平台事务管理器)
  * -                            如果事先没有添加指定任何TransactionManager，最终会从容器中根据类型获取一个PlatformTransactionManager
- * -                            所以，我们可以在配合类中以@Bean的方式向IOC容器中加入个PlatformTransactionManager，{@link #transactionManager()}
+ * -                            所以，我们可以在配置类中以@Bean的方式向IOC容器中加入一个PlatformTransactionManager，{@link #transactionManager()}
  * -                        3) 执行目标方法
  * -                            如果发生异常，获取到事务管理器，利用事务管理器回滚本次操作
  * -                            如果正常执行，同样获取到事务管理器，利用事务管理器提交本次操作
- * -
- *
- * @author
- * @date 2018/12/25
  */
 @EnableTransactionManagement
 @Configuration

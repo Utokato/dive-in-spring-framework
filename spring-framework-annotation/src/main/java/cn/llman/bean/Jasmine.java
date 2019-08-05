@@ -20,7 +20,7 @@ public class Jasmine implements BeanNameAware {
     private String name;
     private Integer num;
 
-    public void setBeanName(String name) {
-        this.id = name;
+    public void setBeanName(String str) {
+        this.id = str;
     }
 }

@@ -17,9 +17,6 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
      * AnnotationMetadata
      * BeanDefinitionRegistry: bean 定义的注册类
      * ---  把所有需要注册到容器中的bean，调用BeanDefinitionRegistry的registerBeanDefinition来手动注册
-     *
-     * @param importingClassMetadata
-     * @param registry
      */
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
@@ -34,3 +31,4 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
         }
     }
 }
+

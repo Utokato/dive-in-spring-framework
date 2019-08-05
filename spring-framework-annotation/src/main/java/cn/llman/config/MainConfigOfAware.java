@@ -12,10 +12,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MainConfigOfAware {
 
-    @Bean
+    @Bean("myJasmine")
     public Jasmine jasmine() {
         Jasmine jasmine = new Jasmine();
-        jasmine.setBeanName("myJasmine");
         jasmine.setName("jasmine");
         jasmine.setNum(10);
         return jasmine;

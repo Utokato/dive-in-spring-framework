@@ -11,8 +11,6 @@ import org.springframework.context.annotation.PropertySources;
  * 将配置文件中的属性以key:value的形式加载到运行环境中(environment of application context)
  * 然后，在需要的位置使用 ${} 的形式去取出需要的值
  *
- * @author
- * @date 2018/12/21
  */
 @Configuration
 @PropertySource(value = {"classpath:/person.properties"})

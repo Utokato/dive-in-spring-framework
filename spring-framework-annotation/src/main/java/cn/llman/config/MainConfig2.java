@@ -28,7 +28,7 @@ public class MainConfig2 {
      * org.springframework.web.context.WebApplicationContext#SCOPE_REQUEST
      * org.springframework.web.context.WebApplicationContext#SCOPE_SESSION
      * <p>
-     * {@link Scope} 使用@Scope调节bean的作用域
+     * {@link Scope} 使用@Scope调节bean的作用域 
      * <p>
      * PROTOTYPE 多实例
      * ---  多实例情况下，在容器启动时不会创建该实例对象;每次需要该实例时，才会调用方法创建该实例;并且，每次获取都会创建不同的实例对象

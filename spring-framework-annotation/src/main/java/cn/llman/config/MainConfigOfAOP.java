@@ -59,7 +59,7 @@ import java.lang.reflect.Method;
  * -        1. @EnableAspectJAutoProxy是什么?
  * -            利用@Import(AspectJAutoProxyRegistrar.class)，给容器中导入AspectJAutoProxyRegistrar组件
  * -                再利用{@link AspectJAutoProxyRegistrar} 给容器中导入bean：(BeanDefinition)
- * -                internalAutoProxyCreator = AnnotationAwareAspectJAutoProxyCreator
+ * -                internalAutoProxyCreator => AnnotationAwareAspectJAutoProxyCreator
  * -                给容器中注册一个 AnnotationAwareAspectJAutoProxyCreator
  * -
  * -        2. {@link AnnotationAwareAspectJAutoProxyCreator} 的功能是什么?
@@ -83,7 +83,8 @@ import java.lang.reflect.Method;
  * -        流程：
  * -            1> 传入主配置类，创建IOC容器
  * -            2> 注册配置类，通过refresh()刷新容器
- * -            3> 在{@link AbstractApplicationContext#refresh()} 中调用了 {@link PostProcessorRegistrationDelegate#registerBeanPostProcessors(ConfigurableListableBeanFactory, AbstractApplicationContext)}
+ * -            3> 在{@link AbstractApplicationContext#refresh()} 中调用了
+ *                  {@link PostProcessorRegistrationDelegate#registerBeanPostProcessors(ConfigurableListableBeanFactory, AbstractApplicationContext)}
  * -                1) 先获取IOC容器中已经定义了的需要创建对象的所有BeanPostProcessor
  * -                2) 给容器中添加一些额外需要的BeanPostProcessor
  * -                3) 优先注册实现了PriorityOrdered接口的BeanPostProcessor
@@ -100,7 +101,7 @@ import java.lang.reflect.Method;
  * -                            3> {@link AbstractAutowireCapableBeanFactory#invokeInitMethods(String, Object, RootBeanDefinition)}: 执行初始化方法
  * -                            4> applyBeanPostProcessorsAfterInitialization: 在初始化后执行BeanPostProcessor#postProcessAfterInitialization
  * -                        d. BeanPostProcessor(*AnnotationAwareAspectJAutoProxyCreator*)创建成功：--> aspectJAdvisorsBuilder
- * -                7) 把BeanPostProcessor注册到BeanFactory中：beanFactory.addBeanPostProcessor(beanPostProcessor);
+ * -                7) (表述有问题) 把BeanPostProcessor注册到BeanFactory中：beanFactory.addBeanPostProcessor(beanPostProcessor);
  * -            ----- 以上是创建和注册AnnotationAwareAspectJAutoProxyCreator的过程 -----
  * -                AnnotationAwareAspectJAutoProxyCreator -> InstantiationAwareBeanPostProcessor
  * -                注意： postProcessBeforeInstantiation  postProcessAfterInstantiation
@@ -126,7 +127,8 @@ import java.lang.reflect.Method;
  * -					            if (bean != null) {
  * -						            bean = applyBeanPostProcessorsAfterInitialization(bean, beanName);
  * -                                }
- * -                        2> {@link AbstractAutowireCapableBeanFactory#doCreateBean(String, RootBeanDefinition, Object[])},真正的去创建一个bean实例，和上面3.6里面的流程是一致的
+ * -                        2> {@link AbstractAutowireCapableBeanFactory#doCreateBean(String, RootBeanDefinition, Object[])},
+ * -                           真正的去创建一个bean实例，和上面3.6里面的流程是一致的
  * -
  * - {@link AnnotationAwareAspectJAutoProxyCreator} 是一个 {@link InstantiationAwareBeanPostProcessor} 类型的后置处理器，它的作用：
  * - 1> 每一个bean创建之前，调用{@link AnnotationAwareAspectJAutoProxyCreator#postProcessBeforeInstantiation(Class, String)}
@@ -138,15 +140,17 @@ import java.lang.reflect.Method;
  * -               每一个封装的通知方法的增强器是 InstantiationModelAwarePointcutAdvisor ;
  * -               在shouldSkip中判断每一个增强器是否为AspectJPointcutAdvisor类型，答案是否定的
  * -           b. 上面的判断，在spring4.x的时候永远返回false，在5.1后，需要通过一个{@link AutoProxyUtils#isOriginalInstance(String, Class)} 方法去判断
- * - 2> 经过postProcessBeforeInstantiation后，开始真正的执行bean的创建创建，就构造函数的执行，即bean的实例化
+ * - 2> 经过postProcessBeforeInstantiation后，开始真正的执行bean的创建创建，就反射下构造函数的执行，即bean的实例化
  * - 3> 完成了bean的实例化后，继续执行{@link AnnotationAwareAspectJAutoProxyCreator#postProcessAfterInstantiation(Object, String)}
  * -    这个方法直接返回了true
- * - 4> 实例化，及其实例化的后置通知方法执行完毕后，开始执行实例化的后置通知方法，首先是{@link AnnotationAwareAspectJAutoProxyCreator#postProcessBeforeInitialization(Object, String)};
+ * - 4> 实例化，及其实例化的后置通知方法执行完毕后，开始执行初始化的后置通知方法，
+ * -    首先是{@link AnnotationAwareAspectJAutoProxyCreator#postProcessBeforeInitialization(Object, String)};
  * -    这个方法直接返回了该实例bean
  * - 5> 接着执行{@link AnnotationAwareAspectJAutoProxyCreator#postProcessAfterInitialization(Object, String)};
  * -    这个方法中执行了 wrapIfNecessary(bean, beanName, cacheKey) {@link AnnotationAwareAspectJAutoProxyCreator#wrapIfNecessary(Object, String, Object)}
  * -    wrapIfNecessary意思就是如果在需要的情况下，对bean进行包装，如何进行包装呢?
- * -        1) 获取当前bean的所有增强方法(通知方法) Object[] specificInterceptors {@link AnnotationAwareAspectJAutoProxyCreator#getAdvicesAndAdvisorsForBean(Class, String, TargetSource)}
+ * -        1) 获取当前bean的所有增强方法(通知方法) Object[] specificInterceptors
+ * -           {@link AnnotationAwareAspectJAutoProxyCreator#getAdvicesAndAdvisorsForBean(Class, String, TargetSource)}
  * -            a. 找到候选的所有的增强器(找哪些通知方法是需要切入到当前bean的方法中)
  * -            b. 获取当前bean能够使用的增强器，封装到一个集合中 List<Advisor> eligibleAdvisors
  * -            c. 对这个eligibleAdvisors增强器集合进行排序，eligibleAdvisors = sortAdvisors(eligibleAdvisors)
@@ -162,14 +166,15 @@ import java.lang.reflect.Method;
  * -
  * - 6> 目标方法的执行流程：
  * -    IOC 容器中保存了组件的代理对象(cglib增强后的对象)，这个代理对象中保存了详细信息(如：增强器，目标对象，xxx)
- * -    1) 首先来到了 {@link CglibAopProxy #DynamicAdvisedInterceptor#intercept} 类的 intercept 方法，用于拦截目标方法的执行
+ * -    1) 首先来到了 {@link CglibAopProxy DynamicAdvisedInterceptor#intercept} 类的 intercept 方法，用于拦截目标方法的执行
  * -    2) 根据ProxyFactory获取将要执行的目标方法的拦截器链(chain):
  * -        List<Object> chain = this.advised.getInterceptorsAndDynamicInterceptionAdvice(method, targetClass);
  * -        {@link DefaultAdvisorChainFactory#getInterceptorsAndDynamicInterceptionAdvice(Advised, Method, Class)}
  * -
  * -        a. List<Object> interceptorList = new ArrayList<>(advisors.length); 保存所有的拦截器(增强器，即通知方法)
  * -            本次调用中advisors.length为5，包含了1个ExposeInvocationInterceptor 和 4个增强器；
- * -        b. 遍历所有的增强器(advisors)，将其转换为一个一个的interceptor(registry.getInterceptors(advisor)) {@link DefaultAdvisorAdapterRegistry#getInterceptors(Advisor)}
+ * -        b. 遍历所有的增强器(advisors)，将其转换为一个一个的interceptor(registry.getInterceptors(advisor))
+ * -           {@link DefaultAdvisorAdapterRegistry#getInterceptors(Advisor)}
  * -        c. 将增强器转为MethodInterceptor并加入List<MethodInterceptor>中
  * -            如果是MethodInterceptor类型，直接加入到集合中
  * -            如果不是MethodInterceptor类型，通过适配器模式，使用AdvisorAdapter(增强器的适配器)将增强器转为MethodInterceptor，然后加入集合中
@@ -198,7 +203,7 @@ import java.lang.reflect.Method;
  * -    5> 容器的创建流程：
  * -        1) 在AnnotationConfigApplicationContext的构造函数中会调用 {@link AbstractApplicationContext#refresh()}方法
  * -        2) 在refresh()方法中，会调用registerBeanPostProcessors(beanFactory)向容器中注册所有的后置处理器，也就在这个过程中创建了AnnotationAwareAspectJAutoProxyCreator
- * -        3) 同样在refresh()方法中，会调用finishBeanFactoryInitialization(beanFactory)初始化剩下的单实例bean
+ * -        3) 同样在refresh()方法中，会调用finishBeanFactoryInitialization(beanFactory)创建剩下的单实例bean
  * -            a. 在finishBeanFactoryInitialization的过程中，创建业务逻辑组件和切面组件
  * -            b. 在创建业务逻辑组件和切面组件时，AnnotationAwareAspectJAutoProxyCreator会进行拦截创建过程
  * -            c. 在组件实例化前，AnnotationAwareAspectJAutoProxyCreator会调用postProcessBeforeInstantiation

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Bean的实例化(Instantiation)和初始化(Initialization):
  * -    实例化：一般是由类创建对象，在构造函数中需要向内存中开辟空间
- * -    初始化：在实例化的基础上，对对象中的值进行初始赋值
+ * -    初始化：在实例化的基础上，对对象中的值进行初始赋 值
  * <p>
  * 在Spring IOC 容器中，有两种类型的BeanPostProcessor，分别是：{@link BeanPostProcessor} 和 {@link InstantiationAwareBeanPostProcessor}
  * 这两种BeanPostProcessor分别对应了上面的bean创建过程中的两个阶段：
