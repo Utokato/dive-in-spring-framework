@@ -28,7 +28,7 @@ public class MainConfig2 {
      * org.springframework.web.context.WebApplicationContext#SCOPE_REQUEST
      * org.springframework.web.context.WebApplicationContext#SCOPE_SESSION
      * <p>
-     * {@link Scope} 使用@Scope调节bean的作用域 
+     * {@link Scope} 使用@Scope调节bean的作用域
      * <p>
      * PROTOTYPE 多实例
      * ---  多实例情况下，在容器启动时不会创建该实例对象;每次需要该实例时，才会调用方法创建该实例;并且，每次获取都会创建不同的实例对象
@@ -43,7 +43,7 @@ public class MainConfig2 {
      */
     @Scope(value = "singleton")
     @Lazy
-    @Bean // 默认的组件都是单实例的(SCOPE_SINGLETON)
+    @Bean("person") // 默认的组件都是单实例的(SCOPE_SINGLETON)
     public Person person() {
         System.out.println("Inject a bean to container ... ");
         return new Person("malong", 23);
@@ -80,7 +80,7 @@ public class MainConfig2 {
      * ------   2> 如果想要获取工厂bean本身，需要在 id 前面加一个&符号：context.getBean("&animalFactoryBean");
      */
     @Bean
-    public AnimalFactoryBean animalFactoryBean(){
+    public AnimalFactoryBean animalFactoryBean() {
         return new AnimalFactoryBean();
     }
 

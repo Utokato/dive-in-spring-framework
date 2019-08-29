@@ -4,6 +4,7 @@ import cn.llman.bean.Person;
 import cn.llman.config.MainConfig;
 import cn.llman.config.MainConfig2;
 import org.junit.Test;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -31,30 +32,32 @@ public class MainTest {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
         Person person = applicationContext.getBean(Person.class);
         System.out.println(person);
-
         printBeans(applicationContext);
     }
 
     @Test
     public void testAnnotationWay2() {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
 
-        System.out.println("IO container has created...");
+        System.out.println("IOC container has created...");
 
-        /*String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
+        String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
         for (String name : beanDefinitionNames) {
-            System.out.println(name);
-        }*/
+            System.err.println(name);
+        }
 
-        Person person1 = applicationContext.getBean(Person.class);
-        Person person2 = applicationContext.getBean(Person.class);
+        BeanDefinition beanDefinition = applicationContext.getBeanDefinition("person");
+        System.out.println(beanDefinition);
+
+        Person person1 = applicationContext.getBean("person", Person.class);
+        Person person2 = applicationContext.getBean("person", Person.class);
         System.out.println(person1.equals(person2));
     }
 
     @Test
     public void testAnnotationWay3() {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
-        System.out.println("IO container has created...");
+        System.out.println("IOC container has created...");
 
         Environment environment = applicationContext.getEnvironment();
         String osName = environment.getProperty("os.name");

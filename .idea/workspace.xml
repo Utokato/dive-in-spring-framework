@@ -7,62 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc493d77-3f46-49f3-8158-fa8125210b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfigOfProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfigOfProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/servlet3_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/servlet3_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/servlet3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/servlet3_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_annotation_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_annotation_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_annotation_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_annotation_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Basketball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/BasketballBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/FootballFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/MainTestNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/uml/BeanFactory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/uml/BeanFactory.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dive-in-spring-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dive-in-spring-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servlet3/servlet3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet3/servlet3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-framework-annotation/spring-framework-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/spring-framework-annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/AnimalFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/AnimalFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Jasmine.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Jasmine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/MyBeanPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigAutowire.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigAutowire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAOP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigPropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigPropertyValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigWithBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigWithBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyImportSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/itest/BookConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/itest/BookConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/TestAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/TestAware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/TxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/TxConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/resources/person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/resources/person.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/AnimalFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/AnimalFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/Jasmine.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/Jasmine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigAutowire.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigAutowire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfAOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfAOP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfAware.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfAware.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfLifeCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigOfProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigPropertyValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfigPropertyValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MyImportBeanDefinitionRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MyImportBeanDefinitionRegistrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MyImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MyImportSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/itest/BookConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/itest/BookConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/test/TestAware.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/test/TestAware.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/tx/TxConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/tx/TxConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/person.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/uml/AnnotationAwareAspectJAutoProxyCreator.uml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/uml/AnnotationAwareAspectJAutoProxyCreator.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/uml/ApplicationContext.uml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/uml/ApplicationContext.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyTypeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyTypeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/TestWithBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/TestWithBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/bean/MyBeanPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfig2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MainConfig2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MyTypeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/config/MyTypeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/test/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/test/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/test/TestWithBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-annotation/target/classes/cn/llman/test/TestWithBeanPostProcessor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc-annotation/spring-mvc-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-annotation/spring-mvc-annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-annotation/src/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-annotation/src/note.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,7 +67,7 @@
     <favorites_list name="dive-in-spring-framework" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,6 +95,14 @@
       <find>preInstantiateSingletons</find>
       <find>singletonObject</find>
       <find>aspectJAdvisorsBuilder</find>
+      <find>initializeA</find>
+      <find>sort</find>
+      <find>getAdvicesAndAdvisorsForBean</find>
+      <find>advisedBeans</find>
+      <find>create</find>
+      <find>weapif</find>
+      <find>DefaultAdvisorChainFactory</find>
+      <find>getInterceptorsAndDynamicInterceptionAdvice</find>
     </findStrings>
     <replaceStrings>
       <replace>Book</replace>
@@ -134,20 +114,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-mvc-annotaion/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/servlet3/src/main/java/cn/llman/servlet/HelloServlet.java" />
-        <option value="$PROJECT_DIR$/servlet3/src/main/java/cn/llman/servlet/HelloAsyncServlet.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-annotaion/src/main/java/cn/llman/controller/MyFirstInterceptor.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-annotaion/src/main/java/cn/llman/service/DeferredResultQueue.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-annotaion/src/main/java/cn/llman/bean/MyDeferredResult.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-annotaion/src/main/java/cn/llman/controller/AsyncController.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-annotaion/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/condition/WindowsCondition.java" />
-        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyTypeFilter.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Daffodil.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/UserService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/pom.xml" />
@@ -160,7 +129,6 @@
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Person.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Cat.java" />
-        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig2.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/condition/LinuxCondition.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Car.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig2.java" />
@@ -183,8 +151,20 @@
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAOP.java" />
         <option value="$PROJECT_DIR$/spring-mvc-annotation/src/note.md" />
         <option value="$PROJECT_DIR$/spring-mvc-annotation/src/main/java/cn/llman/MyWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig.java" />
         <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/TxConfig.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/TestWithBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MyTypeFilter.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfig2.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/MainTest.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/FootballFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Football.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Basketball.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/MainTestNew.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/BasketballBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigNew.java" />
       </list>
     </option>
   </component>
@@ -199,7 +179,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/apache-maven" />
-        <option name="userSettingsFile" value="E:\apache-maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -214,6 +193,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="dive-in-spring-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dive-in-spring-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -240,10 +224,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="122" />
-    <option name="y" value="71" />
-    <option name="width" value="1508" />
-    <option name="height" value="788" />
+    <option name="x" value="226" />
+    <option name="y" value="221" />
+    <option name="width" value="1472" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -303,7 +287,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="llman" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dive-in-spring-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -313,17 +297,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="llman" type="462c0819:PsiDirectoryNode" />
-              <item name="newTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dive-in-spring-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dive-in-spring-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="llman" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dive-in-spring-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -332,19 +306,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dive-in-spring-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dive-in-spring-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dive-in-spring-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dive-in-spring-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="uml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,32 +319,32 @@
     <property name="SearchEverywhereHistoryKey" value="WebConfigu&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.WebMvcConfigurer&#10;AspectJPointcutAdvisor&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJPointcutAdvisor&#10;InstantiationModelAwarePointcutAdvisor&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.InstantiationModelAwarePointcutAdvisor&#10;InstantiationAwareBeanPostProcessor&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java&#10;AnnotationAwareAspectJAutoProxyCreator&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;EnableAspectJAutoProxy&#9;PSI&#9;JAVA://org.springframework.context.annotation.EnableAspectJAutoProxy&#10;ApplicationContextAware&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;ApplicationCon&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContextAware&#10;ApplicationContextAwareProcessor&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;BeanNa&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanNameAware&#10;Prim&#9;PSI&#9;JAVA://org.springframework.context.annotation.Primary&#10;AsyncH&#9;PSI&#9;JAVA://org.springframework.web.servlet.AsyncHandlerInterceptor&#10;AsyncLis&#9;PSI&#9;JAVA://javax.servlet.AsyncListener&#10;WebMvcCon&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.WebMvcConfigurer&#10;WebApplicationInitializer&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE-sources.jar!/org/springframework/web/WebApplicationInitializer.java&#10;singletonObjects&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#singletonObjects&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://org.springframework.util.ConcurrentReferenceHashMap&#10;singletonObject&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.MethodInvokingFactoryBean#singletonObject&#10;BeanFa&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java&#10;doCreateBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#doCreateBean&#10;DefauS&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java&#10;BeanPost&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread&#10;application&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java&#10;applicationLi&#9;PSI&#9;JAVA://org.springframework.context.ApplicationListener&#10;BeanFactoryp&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanFactoryPostProcessor&#10;BeanPostProcessor&#9;FILE&#9;file://F:/Intellij_IDEA_Projects/spring-framework-prictice/action-2/dive-in-spring-framework/spring-framework-annotation/src/main/java/cn/llman/itest/MyInstantiationAwareBeanPostProcessor.java&#10;MainCOnfi&#9;FILE&#9;file://F:/Intellij_IDEA_Projects/spring-framework-prictice/action-2/dive-in-spring-framework/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAOP.java&#10;BeanPos&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java&#10;PlatFormT&#9;PSI&#9;JAVA://org.springframework.transaction.PlatformTransactionManager&#10;cglibm&#9;PSI&#9;JAVA://org.springframework.aop.framework.CglibAopProxy.CglibMethodInvocation&#10;aspectjafter&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJAfterAdvice&#10;DefaultAdvisorAdapterRegistry&#9;PSI&#9;JAVA://org.springframework.aop.framework.adapter.DefaultAdvisorAdapterRegistry&#10;Expose&#9;PSI&#9;JAVA://org.springframework.aop.interceptor.ExposeInvocationInterceptor&#10;DefaultAd&#9;PSI&#9;JAVA://org.springframework.aop.framework.DefaultAdvisorChainFactory&#10;Cglib&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java&#10;DefaultAop&#9;PSI&#9;JAVA://org.springframework.aop.framework.DefaultAopProxyFactory&#10;ProxyCreatorS&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyCreatorSupport&#10;InstantiationModel&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl&#10;Aspe&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java&#10;abstract&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;abst&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java&#10;D&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java&#10;DefaultLis&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultListableBeanFactory&#10;applicationcontext&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;abstractApplica&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java&#10;Instantiation&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/SmartInstantiationAwareBeanPostProcessor.java&#10;abstractauto&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;aspectjbuilder&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator#aspectJAdvisorsBuilder&#10;abstractad&#9;FILE&#9;jar://D:/maven-repository/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564999701952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567069849734" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring-boot-accidence/spring-boot-integration/spring-boot-02-amqp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.22665602" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.4218391" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\servlet3" />
-      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src" />
-      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src\META-INF" />
-      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src\main\webapp" />
-      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.llman.test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\servlet3\src" />
       <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotaion\src\main\webapp\WEB-INF\views" />
       <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotaion\src\main\webapp\WEB-INF" />
       <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotaion\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.llman.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\@Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-framework-annotation\uml" />
+      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\servlet3" />
+      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src" />
+      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src\META-INF" />
+      <recent name="F:\Intellij_IDEA_Projects\spring-framework-prictice\action-2\dive-in-spring-framework\spring-mvc-annotation\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,13 +359,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.testOne">
-    <configuration name="MainConfigOfProfileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.llman.newTest.MainConfigOfProfileTest" />
+  <component name="RunManager" selected="Application.MainTestNew">
+    <configuration name="MainTestNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.llman.test.MainTestNew" />
       <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.llman.newTest.*" />
+          <option name="PATTERN" value="cn.llman.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,7 +389,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAop.testAopOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testAnnotationWay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
@@ -437,14 +398,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.llman.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.llman.test.TestAop" />
-      <option name="METHOD_NAME" value="testAopOne" />
+      <option name="MAIN_CLASS_NAME" value="cn.llman.test.MainTest" />
+      <option name="METHOD_NAME" value="testAnnotationWay2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAware.testAwareOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWithBeanPostProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
@@ -453,14 +414,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.llman.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.llman.test.TestAware" />
-      <option name="METHOD_NAME" value="testAwareOne" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="cn.llman.test.TestWithBeanPostProcessor" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTx.testTxOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWithBeanPostProcessor.testWithBeanPostProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
@@ -469,8 +428,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.llman.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.llman.test.TestTx" />
-      <option name="METHOD_NAME" value="testTxOne" />
+      <option name="MAIN_CLASS_NAME" value="cn.llman.test.TestWithBeanPostProcessor" />
+      <option name="METHOD_NAME" value="testWithBeanPostProcessor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -550,20 +509,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainConfigOfProfileTest" />
-      <item itemvalue="JUnit.TestAware.testAwareOne" />
-      <item itemvalue="JUnit.TestAop.testAopOne" />
-      <item itemvalue="JUnit.TestTx.testTxOne" />
+      <item itemvalue="Application.MainTestNew" />
       <item itemvalue="JUnit.BookTest.testOne" />
+      <item itemvalue="JUnit.MainTest.testAnnotationWay2" />
+      <item itemvalue="JUnit.TestWithBeanPostProcessor.testWithBeanPostProcessor" />
+      <item itemvalue="JUnit.TestWithBeanPostProcessor" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTestNew" />
+        <item itemvalue="JUnit.TestWithBeanPostProcessor" />
+        <item itemvalue="JUnit.TestWithBeanPostProcessor.testWithBeanPostProcessor" />
+        <item itemvalue="JUnit.MainTest.testAnnotationWay2" />
         <item itemvalue="JUnit.BookTest.testOne" />
-        <item itemvalue="JUnit.TestTx.testTxOne" />
-        <item itemvalue="JUnit.TestAop.testAopOne" />
-        <item itemvalue="JUnit.TestAware.testAwareOne" />
-        <item itemvalue="Application.MainConfigOfProfileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -609,7 +568,10 @@
       <workItem from="1553164453513" duration="6515000" />
       <workItem from="1556109163339" duration="1865000" />
       <workItem from="1559746037546" duration="839000" />
-      <workItem from="1564993025985" duration="5524000" />
+      <workItem from="1564993025985" duration="6681000" />
+      <workItem from="1565083646932" duration="2760000" />
+      <workItem from="1565246910020" duration="17877000" />
+      <workItem from="1566874412503" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for dive in spring framework">
       <created>1545396077358</created>
@@ -618,25 +580,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545396077358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit for dive in spring framework">
+      <created>1564999673880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564999673880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add some files">
+      <created>1564999823740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564999823740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAop_testAopOne - 2019.03.01 at 11h 16m 57s.xml">
-      <configuration name="TestAop.testAopOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAop_testAopOne - 2019.03.01 at 11h 18m 11s.xml">
-      <configuration name="TestAop.testAopOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAop_testAopOne - 2019.03.01 at 11h 29m 45s.xml">
-      <configuration name="TestAop.testAopOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAop_testAopOne - 2019.03.01 at 14h 25m 02s.xml">
-      <configuration name="TestAop.testAopOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAop_testAopOne - 2019.03.01 at 14h 25m 36s.xml">
-      <configuration name="TestAop.testAopOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAop_testAopOne - 2019.03.01 at 14h 31m 10s.xml">
       <configuration name="TestAop.testAopOne" configurationId="JUnit" />
     </history-entry>
@@ -652,9 +613,24 @@
     <history-entry file="BookTest_testOne - 2019.04.24 at 20h 42m 13s.xml">
       <configuration name="BookTest.testOne" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_testAnnotationWay2 - 2019.08.08 at 15h 23m 52s.xml">
+      <configuration name="MainTest.testAnnotationWay2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testAnnotationWay2 - 2019.08.08 at 15h 27m 14s.xml">
+      <configuration name="MainTest.testAnnotationWay2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testAnnotationWay2 - 2019.08.08 at 15h 32m 00s.xml">
+      <configuration name="MainTest.testAnnotationWay2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWithBeanPostProcessor_testWithBeanPostProcessor - 2019.08.08 at 17h 07m 27s.xml">
+      <configuration name="TestWithBeanPostProcessor.testWithBeanPostProcessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWithBeanPostProcessor - 2019.08.08 at 17h 07m 43s.xml">
+      <configuration name="TestWithBeanPostProcessor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274659000" />
+    <option name="totallyTimeSpent" value="297797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,42 +642,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="71" width="1508" height="788" extended-state="0" />
+    <frame x="379" y="235" width="1472" height="797" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49627793" visible="true" weight="0.2866022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49627793" visible="true" weight="0.30949008" />
       <window_info id="Structure" order="1" sideWeight="0.500615" side_tool="true" weight="0.20889987" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32941905" />
       <window_info id="Web" order="4" sideWeight="0.5037221" side_tool="true" weight="0.25766104" />
-      <window_info anchor="bottom" id="Application Servers" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32515338" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3645084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3278328" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32741934" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49876392" weight="0.3608361" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49876392" weight="0.28969958" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061804" side_tool="true" weight="0.2565445" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061804" side_tool="true" weight="0.2549575" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" sideWeight="0.49938196" weight="0.25675675" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49938196" weight="0.27239263" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962293" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.38699362" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2581967" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.1977612" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3295626" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3293623" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +725,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit for dive in spring framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit for dive in spring framework" />
+    <MESSAGE value="add some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -880,327 +857,181 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/itest/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/MyBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="540">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-annotation/src/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-annotation/src/main/resources/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Jasmine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/support/AbstractDispatcherServletInitializer.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/context/AbstractContextLoaderInitializer.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class" />
-    <entry file="file://$PROJECT_DIR$/spring-mvc-annotation/src/main/java/cn/llman/config/AppConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="214">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-annotation/src/main/java/cn/llman/controller/AsyncController.java">
+    <entry file="jar://D:/java/jdk-8u221/src.zip!/java/net/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1660">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="-958">
+          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-annotation/src/main/java/cn/llman/controller/HelloController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE-sources.jar!/org/springframework/http/client/support/ProxyFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet3/src/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="280">
-            <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-annotation/src/main/java/cn/llman/config/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="660">
-            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="76" lean-forward="true" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/annotation/TransactionManagementConfigurationSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="107" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/annotation/AutoProxyRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/framework/autoproxy/InfrastructureAdvisorAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="71" lean-forward="true" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/config/SmartInstantiationAwareBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="86" lean-forward="true" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/InfrastructureAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/annotation/AbstractTransactionManagementConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
           <folding>
-            <element signature="e#2138#2147#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="254">
+          <caret line="173" column="39" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/MainTestNew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="82" column="56" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/TxConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="63" />
+        <state relative-caret-position="314">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
-            <element signature="e#3413#3425#1" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/uml/AbstractBeanFactory.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.beans.factory.support.AbstractBeanFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.core.AliasRegistry</node>
+            <node x="" y="">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="" y="">org.springframework.core.SimpleAliasRegistry</node>
+            <node x="" y="">org.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
+            <node x="" y="">org.springframework.beans.factory.config.SingletonBeanRegistry</node>
+            <node x="" y="">org.springframework.beans.factory.support.AbstractBeanFactory</node>
+            <node x="" y="">org.springframework.beans.factory.BeanFactory</node>
+            <node x="" y="">org.springframework.beans.factory.config.ConfigurableBeanFactory</node>
+            <node x="" y="">org.springframework.beans.factory.support.FactoryBeanRegistrySupport</node>
+            <node x="" y="">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="265.0" y="218.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/uml/BeanFactory.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.beans.factory.BeanFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="" y="">org.springframework.beans.factory.support.BeanDefinitionResource</node>
+            <node x="" y="">org.springframework.context.support.GenericXmlApplicationContext</node>
+            <node x="" y="">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
+            <node x="" y="">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+            <node x="" y="">org.springframework.beans.factory.support.AbstractBeanDefinitionReader</node>
+            <node x="" y="">org.springframework.beans.factory.config.ConfigurableListableBeanFactory</node>
+            <node x="" y="">org.springframework.context.annotation.ClassPathBeanDefinitionScanner</node>
+            <node x="" y="">org.springframework.core.io.ContextResource</node>
+            <node x="" y="">org.springframework.beans.factory.support.AbstractBeanFactory</node>
+            <node x="" y="">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="" y="">org.springframework.core.io.InputStreamResource</node>
+            <node x="" y="">org.springframework.context.annotation.AnnotatedBeanDefinitionReader</node>
+            <node x="" y="">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="" y="">org.springframework.core.io.Resource</node>
+            <node x="" y="">org.springframework.core.io.ResourceLoader</node>
+            <node x="" y="">org.springframework.core.io.DefaultResourceLoader.ClassPathContextResource</node>
+            <node x="" y="">org.springframework.core.io.FileSystemResource</node>
+            <node x="" y="">org.springframework.web.context.WebApplicationContext</node>
+            <node x="" y="">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+            <node x="" y="">org.springframework.context.support.AbstractRefreshableConfigApplicationContext</node>
+            <node x="" y="">org.springframework.core.AliasRegistry</node>
+            <node x="" y="">org.springframework.core.AttributeAccessor</node>
+            <node x="" y="">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="" y="">org.springframework.beans.factory.support.BeanDefinitionReader</node>
+            <node x="" y="">org.springframework.core.AttributeAccessorSupport</node>
+            <node x="" y="">org.springframework.core.io.InputStreamSource</node>
+            <node x="" y="">org.springframework.context.support.AbstractRefreshableApplicationContext</node>
+            <node x="" y="">org.springframework.beans.factory.ListableBeanFactory</node>
+            <node x="" y="">org.springframework.beans.factory.support.RootBeanDefinition</node>
+            <node x="" y="">org.springframework.core.io.UrlResource</node>
+            <node x="" y="">org.springframework.beans.factory.annotation.AnnotatedBeanDefinition</node>
+            <node x="" y="">org.springframework.context.support.AbstractXmlApplicationContext</node>
+            <node x="" y="">org.springframework.core.io.ClassPathResource</node>
+            <node x="" y="">org.springframework.beans.factory.config.AutowireCapableBeanFactory</node>
+            <node x="" y="">org.springframework.core.io.FileSystemResourceLoader.FileSystemContextResource</node>
+            <node x="" y="">org.springframework.beans.BeanMetadataAttributeAccessor</node>
+            <node x="" y="">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="" y="">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="" y="">org.springframework.context.support.ClassPathXmlApplicationContext</node>
+            <node x="" y="">org.springframework.beans.factory.config.BeanDefinition</node>
+            <node x="" y="">org.springframework.web.context.support.AnnotationConfigWebApplicationContext</node>
+            <node x="" y="">org.springframework.context.MessageSource</node>
+            <node x="" y="">org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition</node>
+            <node x="" y="">org.springframework.beans.BeanMetadataElement</node>
+            <node x="" y="">org.springframework.core.SimpleAliasRegistry</node>
+            <node x="" y="">org.springframework.context.annotation.ScannedGenericBeanDefinition</node>
+            <node x="" y="">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</node>
+            <node x="" y="">org.springframework.web.context.support.AbstractRefreshableWebApplicationContext</node>
+            <node x="" y="">org.springframework.beans.factory.support.GenericBeanDefinition</node>
+            <node x="" y="">org.springframework.context.ApplicationContext</node>
+            <node x="" y="">org.springframework.context.support.GenericApplicationContext</node>
+            <node x="" y="">org.springframework.web.context.ConfigurableWebApplicationContext</node>
+            <node x="" y="">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+            <node x="" y="">org.springframework.core.io.AbstractResource</node>
+            <node x="" y="">org.springframework.beans.factory.BeanFactory</node>
+            <node x="" y="">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="" y="">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+            <node x="" y="">org.springframework.beans.factory.config.ConfigurableBeanFactory</node>
+            <node x="" y="">org.springframework.context.annotation.AnnotationConfigRegistry</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6100840336134453" x="1189.0" y="699.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/uml/BeanFactory.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="287" column="94" lean-forward="true" selection-start-line="287" selection-start-column="94" selection-end-line="287" selection-end-column="94" />
+        <state relative-caret-position="759">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/tx/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/resources/SpringSource.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="446">
-            <caret line="478" column="41" lean-forward="true" selection-start-line="478" selection-start-column="41" selection-end-line="478" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Test.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfigOfProfileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfigOfProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1211,10 +1042,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Car.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Father.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1067,293 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfigOfProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/MainConfigOfProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/itest/MyInstantiationAwareBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/itest/BookConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/itest/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/newTest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/Basketball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/bean/BasketballBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="106" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar!/org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE-sources.jar!/org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE-sources.jar!/org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4516">
+          <caret line="269" column="35" selection-start-line="269" selection-start-column="20" selection-end-line="269" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/test/TestAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="106" lean-forward="true" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/cn/llman/config/MainConfigOfAOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="227" column="10" lean-forward="true" selection-start-line="227" selection-start-column="10" selection-end-line="227" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/config/AopConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk-8u221/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1300">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/AdvisorAdapterRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/AopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/uml/AnnotationAwareAspectJAutoProxyCreator.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.core.Ordered</node>
+            <node x="" y="">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
+            <node x="" y="">org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator</node>
+            <node x="" y="">org.springframework.beans.factory.Aware</node>
+            <node x="" y="">org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</node>
+            <node x="" y="">org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator</node>
+            <node x="" y="">org.springframework.beans.factory.config.BeanPostProcessor</node>
+            <node x="" y="">org.springframework.aop.framework.ProxyConfig</node>
+            <node x="" y="">org.springframework.beans.factory.BeanFactoryAware</node>
+            <node x="" y="">org.springframework.aop.framework.ProxyProcessorSupport</node>
+            <node x="" y="">org.springframework.aop.framework.AopInfrastructureBean</node>
+            <node x="" y="">org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator</node>
+            <node x="" y="">org.springframework.beans.factory.BeanClassLoaderAware</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6476274165202109" x="787.0" y="259.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-967">
+          <caret line="78" column="34" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="337" column="24" lean-forward="true" selection-start-line="337" selection-start-column="24" selection-end-line="337" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="109" column="35" lean-forward="true" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+          <folding>
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3795#3796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/AdvisedSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="478" column="47" selection-start-line="478" selection-start-column="47" selection-end-line="478" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="687" column="119" lean-forward="true" selection-start-line="687" selection-start-column="119" selection-end-line="687" selection-end-column="119" />
+          <folding>
+            <element signature="e#22894#22895#0" expanded="true" />
+            <element signature="e#22925#22926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="185" column="48" selection-start-line="185" selection-start-column="48" selection-end-line="185" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="105" column="31" lean-forward="true" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="e#1060#1087#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/AdvisorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1279,12 +1411,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-mvc-annotation</last-edited>
+          <last-edited>servlet3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22665602" />
-                <option value="0.6" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1308,7 +1439,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.19553073" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>

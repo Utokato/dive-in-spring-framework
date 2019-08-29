@@ -25,13 +25,13 @@ import org.springframework.stereotype.Controller;
 })*/
 @ComponentScans(value = {
         @ComponentScan(basePackages = {"cn.llman"}, useDefaultFilters = false,
-        includeFilters = {
-                // @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class}),
-                // @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {BookService.class}),
-                @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})
-        }, excludeFilters = {
+                includeFilters = {
+                        // @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class}),
+                        // @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {BookService.class}),
+                        @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})
+                }, excludeFilters = {
 
-})
+        })
 })
 // @ComponentScan  value:指定要扫描的包
 // excludeFilters = Filter[] ：指定扫描的时候按照什么规则排除那些组件

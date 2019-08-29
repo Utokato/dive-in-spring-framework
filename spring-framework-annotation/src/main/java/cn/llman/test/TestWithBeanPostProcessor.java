@@ -12,11 +12,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class TestWithBeanPostProcessor {
 
     @Test
-    public void testWithBeanPostProcessor(){
+    public void testWithBeanPostProcessor() {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfigWithBeanPostProcessor.class);
         printBeans(applicationContext);
-
-
         applicationContext.close();
 
     }

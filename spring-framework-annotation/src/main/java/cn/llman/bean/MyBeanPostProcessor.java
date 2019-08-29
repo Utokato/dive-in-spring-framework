@@ -17,13 +17,13 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         System.out.println("Some handles before initialization, ... " + beanName + " --> " + bean);
-        return bean;
+        return null;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         System.out.println("Some handles after initialization, ... " + beanName + " --> " + bean);
         System.out.println(" ");
-        return bean;
+        return null;
     }
 }
