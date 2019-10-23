@@ -1,6 +1,6 @@
 ### Dive in Spring Framework
 
-跟着《尚硅谷》的一个课程学习，课程名称是---《Spring-framework 注解驱动开发》
+《Spring-framework 注解驱动开发》
 
 ---
 
@@ -36,3 +36,11 @@ Spring AOP 的大体思路是：
   - 后置处理器的注册
   - 在后置处理器的帮助下产生代理对象
 - 代理对象执行方法
+
+
+
+---
+
+![Spring-Architecture](./imgs/BeanFactory.jpg)
+
+Spring 核心组件的协作，如上图所示。Bean 是 Spring 的核心，可以认为 Spring 是面向 Bean 编程的一门技术，所以一切与 Bean 相关的部分就尤为重要。首先是 BeanFactory ，这是产生 Bean 的地方，根据不同的特性，可以分出好几种 Bean 工厂；经由工厂产生的 Bean 需要统一存放到一个位置，进行管理和维护，此时就需要 Context，从上图中可以看出，ApplicationContext 实现了 BeanFactory 的子接口，也说明了 Context 是具备 Factory 的相应功能；最后的一个组件 Spring-Core 看似与前两个组件没有直接的继承关系，但基本上 Spring 中所有的组件都需要使用到 Core 中的工具方法，所以 Core 本质上就是一个工具方法的集合，所以称它为 Spring-Utils 更容易理解。
